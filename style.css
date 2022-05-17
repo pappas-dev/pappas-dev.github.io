@@ -1,0 +1,18 @@
+html,
+body {
+    font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+}
+.portlinks p {
+    margin: 0px;   
+}
+header h1 {
+    text-align: center;
+    font-size: 48px;
+}
