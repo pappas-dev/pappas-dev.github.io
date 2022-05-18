@@ -1,14 +1,14 @@
 html,
 body {
     font-family:'Courier New', Courier, monospace;
+    margin: 0px;
+    height: 100vh;
+    background-color:#232323;
+    color:#39ff14;
 }
 body {
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    background-color:#232323;
-    color:#39ff14;
-    padding: 0 10%;
 }
 a {
     text-decoration: none;
@@ -16,8 +16,8 @@ a {
     font-size: large;
 }
 header h1 {
-    text-align: center;
     font-size: 52px;
+    text-align: center;
 }
 .bodyzero {
     display: flex;
@@ -51,4 +51,12 @@ h2 {
 }
 .words {
     width: 400px;
+}
+footer {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    background-color: #1111116f;
+    margin-top: auto;
+    padding: 10px;
 }
