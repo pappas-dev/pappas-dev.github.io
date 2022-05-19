@@ -16,11 +16,12 @@ a {
     font-size: large;
 }
 header h1 {
-    font-size: 52px;
+    font-size: 64px;
     text-align: center;
 }
 .bodyzero {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 50px;
     margin-top: 0px;
@@ -28,7 +29,8 @@ header h1 {
 .portfolio {
     display: flex;
     flex-direction: column;
-    width: 175px;
+    flex: 1,0;
+    width: 400px;
 }
 p {
     text-align: justify;
@@ -50,6 +52,7 @@ h2 {
     text-decoration:underline;
 }
 .words {
+    flex: 1,0;
     width: 400px;
 }
 footer {
