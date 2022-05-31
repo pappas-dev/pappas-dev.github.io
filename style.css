@@ -1,18 +1,19 @@
 html,
 body {
-    font-family:'Courier New', Courier, monospace;
-    margin: 0px;
-    height: 100vh;
-    background-color:#232323;
-    color:#39ff14;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:#A9C9D6;
+    color: #333;
 }
 body {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin: 0px 0px;
+    min-height: 100vh;
+    font-weight: bold;
 }
 a {
-    text-decoration: none;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: large;
 }
 header h1 {
@@ -37,12 +38,12 @@ p {
     margin: 0px;
 }
 a {
-    color:#cef8c6;
+    color:#000000af;
 }
 .words,
 .portfolio {
     border-radius: 15px;
-    background-color: #1111116f;
+    background-color: #0000001c;
     padding: 20px;
     margin-top: -10px;
 }
@@ -59,7 +60,8 @@ footer {
     display: flex;
     flex-shrink: 0;
     justify-content: center;
-    background-color: #1111116f;
+    background-color: #0000001c;
     margin-top: auto;
     padding: 10px;
+    font-weight: 900;
 }
